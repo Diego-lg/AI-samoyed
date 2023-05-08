@@ -29,7 +29,7 @@ popup.addEventListener('click', (e) => {
 
 imageIndexes.forEach(i => {
   const image = document.createElement('img');
-  image.src = `/images/1 (${i}).png`;
+  image.src = `/images/1 (1).png`;
   image.alt = `Cover for Episode ${i+1}`;
   image.classList.add('galleryImg');
 
